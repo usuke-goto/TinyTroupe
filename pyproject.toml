@@ -5,6 +5,9 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 packages = ["tinytroupe"]
 
+[tool.setuptools.packages.find]
+where = ["."]
+
 [project]
 name = "tinytroupe"
 version = "0.3.0"
